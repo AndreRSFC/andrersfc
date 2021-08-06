@@ -1,9 +1,6 @@
-<h2>Hi, I’m André Simões Front End Engineer! 💪</h2>
-
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:andrersfcosta@gmail.com "Connect via Email")
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/andrersfc/ "Connect on LinkedIn")
-[![My Site Badge](https://img.shields.io/badge/-Website-273146?style=flat&logo=Site&logoColor=white)](https://www.andresimoes.dev/ "Connect on My WebSite")
-
+<div align="center">
+  <img src="https://github.com/AndreRSFC/andrersfc/blob/master/me.gif" alt="Hi, I’m André Simões Front End Engineer"/>
+</div>
 
 ```js
 import { me } from "../utils/dev";
@@ -33,7 +30,16 @@ describe("Person: Me", () => {
 
 ```
 
-<p style="justify-content:center; display: flex; align-items: center">
+<p align="center">
+   <a href="mailto:andrersfcosta@gmail.com" target="_blank"><img alt="Updates" src="https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white"></a>
+   <a href="https://www.linkedin.com/in/andrersfc/" target="_blank"><img alt="Updates" src="https://img.shields.io/badge/-LinkedIn-0072b1?   style=flat&logo=Linkedin&logoColor=white"></a>
+   <a href="https://www.andresimoes.dev/" target="_blank"><img alt="Updates" src=https://img.shields.io/badge/-Website-273146?style=flat&logo=Site&logoColor=white"></a>
+   <!--<a href="https://github.com/alwinw" target="_blank"><img alt="andrersfc" src="https://badges.pufler.dev/visits/andrersfc/andrersfc?logo=GitHub&label=visits&color=success&logoColor=white&style=flat-square"/></a>-->
+   <a href="https://github.com/andrersfc/andrersfc" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/andrersfc/andrersfc?label=profile%20updated&style=flat-square"></a>
+</p>
+
+
+<p align="center">
  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrersfc&show_icons=true&theme=dracula" alt="andrersfc" />
  <img src="https://github-readme-stats.vercel.app/api?username=andrersfc&show_icons=true&theme=dracula" alt="andrersfc" />
 </p>
