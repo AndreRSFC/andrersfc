@@ -1,15 +1,39 @@
-## Hi there! 💪
+<h2>Hi, I’m André Simões Front End Engineer! 💪</h2>
 
-My name is André, I am a front end developer and I currently work at [Cifra Club](https://www.cifraclub.com.br/). I am always trying to adapt to new challenges.
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:andrersfcosta@gmail.com "Connect via Email")
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/andrersfc/ "Connect on LinkedIn")
+[![My Site Badge](https://img.shields.io/badge/-Website-273146?style=flat&logo=Site&logoColor=white)](https://www.andresimoes.dev/ "Connect on My WebSite")
 
-Do you have a challenge for me?
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9-sim%C3%B5es-0a7345170/)](https://www.linkedin.com/in/andr%C3%A9-sim%C3%B5es-0a7345170/)
+```js
+import { me } from "../utils/dev";
 
----
+describe("Person: Me", () => {
+  const hobbies = ["listening musics", "playing soccer", "playing video games", "drink coffe", "code", "eat"];
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andrersfc&layout=compact&hide=c)](https://github.com/AndreRSFC)
+  it("must show personal characteristics", () => {
+    expect(me.name).toBe("André")
+    expect(me.description).toBe("I'm a technology hunter and passionate for programing as a hobby. 
+                                I have started my professional front end engineer journey building 
+                                apps with React and Typescript. I love to contribute for open source
+                                communities, to explore new tecnologies and to follow accompany technology communities")
+    expect(me.hobbies).toEqual(expect.arrayContaining(hobbies));
+  });
 
----
+  it("must show professional characteristics", () => {
+    expect(me.currentWork).toBe("Grupo Boticario")
+  });
 
-[![Andre's github stats](https://github-readme-stats.vercel.app/api?username=andrersfc&count_private=true)](https://github.com/AndreRSFC)
+  const languagesAndTools = ["Js", "Ts", "React", "NextJs", "Angular", "Jest", "HTML", "CSS", "Others"]
+
+  it.each(languagesAndTools)("must show familiar languages and tools", (item) => {
+    expect(me.languagesAndTools.includes(item)).toBeTruthy();
+  });
+});
+
+```
+
+<p style="justify-content:center; display: flex; align-items: center">
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrersfc&show_icons=true&theme=dracula" alt="andrersfc" />
+ <img src="https://github-readme-stats.vercel.app/api?username=andrersfc&show_icons=true&theme=dracula" alt="andrersfc" />
+</p>
