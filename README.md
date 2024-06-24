@@ -18,10 +18,10 @@ describe("Person: Me", () => {
   });
 
   it("must show professional characteristics", () => {
-    expect(me.currentWork).toBe("Grupo Boticario")
+    expect(me.currentWork).toBe("Syngenta Digital")
   });
 
-  const languagesAndTools = ["Js", "Ts", "React", "NextJs", "Angular", "Jest", "HTML", "CSS", "Others"]
+  const languagesAndTools = ["Js", "Ts", "React", "NextJs", "Angular", "Jest", "Vite", "HTML", "CSS", "Others"]
 
   it.each(languagesAndTools)("must show familiar languages and tools", (item) => {
     expect(me.languagesAndTools.includes(item)).toBeTruthy();
