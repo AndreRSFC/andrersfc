@@ -18,7 +18,7 @@ describe("Person: Me", () => {
   });
 
   it("must show professional characteristics", () => {
-    expect(me.currentWork).toBe("Syngenta Digital")
+    expect(me.currentWork).toBe("Linktree")
   });
 
   const languagesAndTools = ["Js", "Ts", "React", "NextJs", "Angular", "Jest", "Vite", "HTML", "CSS", "Others"]
